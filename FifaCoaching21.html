@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FHN_Yaw07 | FIFA Coaching</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing:border-box; margin:0; padding:0; font-family:'Poppins', sans-serif; }
+    body { background: radial-gradient(circle at top, #0b0d10, #000); color:#f8f8f8; overflow-x:hidden; }
+    a { text-decoration:none; }
+
+    header {
+      background: linear-gradient(135deg, #ffc107, #ff6f00);
+      text-align:center;
+      padding:50px 20px;
+      box-shadow:0 5px 20px rgba(0,0,0,0.5);
+    }
+    header h1 { font-size:3rem; font-weight:700; text-transform:uppercase; text-shadow:0 0 10px #ffc107; }
+    header p { font-size:1.2rem; margin-top:10px; opacity:0.95; }
+
+    .hero {
+      position: relative;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: url('https://cdn.fifa.gg/cache/media/player/c17f90f1-927b-4ad1-8b39-06044c879aa8/Image-of-player-Vejrgang-player-c17f90f1-927b-4ad1-8b39-06044c879aa8.png') no-repeat center center/cover;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      top:0; left:0; width:100%; height:100%;
+      background: rgba(0,0,0,0.5);
+    }
+    .hero-content {
+      position: relative; z-index:2; padding:20px; max-width:800px; animation: fadeInUp 1.2s ease forwards;
+    }
+    @keyframes fadeInUp { from { opacity:0; transform: translateY(40px); } to { opacity:1; transform: translateY(0); } }
+    .hero-content h2 { font-size:2.8rem; color:#ffc107; text-shadow:0 0 15px #ffc107; margin-bottom:15px; }
+    .hero-content p { font-size:1.2rem; color:#e0e0e0; line-height:1.6; margin-bottom:20px; }
+    .record { display:inline-block; padding:15px 30px; border-radius:15px; font-size:1.5rem; font-weight:700; background:linear-gradient(135deg,#ff6a00,#ffc107); color:#000; box-shadow:0 0 20px #ffc107,0 0 40px #ff6a00; margin-bottom:25px; animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0%,100%{ transform:scale(1); box-shadow:0 0 20px #ffc107,0 0 40px #ff6a00; } 50%{ transform:scale(1.05); box-shadow:0 0 30px #ffc107,0 0 60px #ff6a00; } }
+
+    .btn { display:inline-block; padding:14px 32px; border-radius:12px; background:linear-gradient(90deg,#ff6a00,#ffc107); color:#000; font-weight:700; font-size:1.1rem; transition:0.3s; box-shadow:0 0 15px rgba(255,183,3,0.6); }
+    .btn:hover { transform:translateY(-3px); background:linear-gradient(90deg,#ffc107,#ff6a00); box-shadow:0 0 30px rgba(255,183,3,0.9); }
+
+    section { max-width:1000px; margin:80px auto; padding:20px; }
+    h2.section-title { color:#ffc107; font-size:2rem; border-left:6px solid #ffc107; padding-left:12px; margin-bottom:25px; text-shadow:0 0 10px #ffc107; }
+    ul { list-style:none; }
+    ul li { background:rgba(255,255,255,0.03); padding:15px 20px; border-left:5px solid #ffc107; border-radius:8px; font-size:1.1rem; margin-bottom:15px; }
+
+    .contact, .booking { background:#161a1e; border:2px solid #ffc107; border-radius:20px; text-align:center; padding:40px 20px; margin-top:60px; box-shadow:0 0 30px rgba(255,183,3,0.2); }
+    .contact a { color:#ffc107; font-weight:700; text-decoration:none; transition:0.3s; }
+    .contact a:hover { color:#ff6a00; }
+    input, textarea { width:100%; padding:12px; margin:8px 0; border-radius:8px; border:none; font-size:1rem; }
+    input[type="submit"] { background:linear-gradient(90deg,#ff6a00,#ffc107); color:#000; font-weight:700; cursor:pointer; transition:0.3s; }
+    input[type="submit"]:hover { transform:translateY(-3px); }
+
+    footer { background:#111; border-top:1px solid #ffc107; padding:25px; text-align:center; color:#aaa; }
+
+    @media(max-width:768px){
+      header h1 { font-size:2rem; }
+      .hero-content h2 { font-size:2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>FHN_Yaw07 FIFA Coaching</h1>
+    <p>The GOAT Approach • Weekend League Record: 15‑0 • Dominate FUT Champs ⚡</p>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Become a Champion of Weekend League</h2>
+      <p>Train with strategies, tactics, and insights that separate the good from the greatest. Learn how to control the pitch, break defenses, and maximize every opportunity.</p>
+      <div class="record">15 ‑ 0 🔥</div>
+      <a href="https://www.instagram.com/fhn_yaw07" target="_blank" class="btn">Follow @fhn_yaw07</a>
+    </div>
+  </section>
+
+  <!-- Coaching Benefits -->
+  <section>
+    <h2 class="section-title">Coaching Benefits</h2>
+    <ul>
+      <li>🎯 Master Build‑up & Passing Precision</li>
+      <li>🧠 Tactical Intelligence & Reading Opponents</li>
+      <li>⚙️ Optimal Squad Builds for Your Playstyle</li>
+      <li>🔥 WL Mental Focus & Composure Training</li>
+      <li>📊 Detailed Match Analysis & Feedback</li>
+    </ul>
+  </section>
+
+  <!-- Booking Form & Cash App Payment -->
+  <section class="booking">
+    <h2 class="section-title">Book Your Coaching Session</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="text" name="platform" placeholder="Platform (PC/PS/Xbox)" required>
+      <textarea name="message" placeholder="Skill Level / Questions" rows="4"></textarea>
+      <input type="submit" value="Request Coaching">
+    </form>
+    <p style="margin-top:15px;">💳 Pay via Cash App to start coaching:<br>
+      <strong>Cash App Username:</strong> $YawOduro6<br>
+      <a href="#" onclick="alert('Send payment to $YawOduro6 via Cash App')" class="btn">Pay Now</a>
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact">
+    <h2 class="section-title">Contact & Socials</h2>
+    <p><strong>Email:</strong> <a href="mailto:oduroyaw213@gmail.com">oduroyaw213@gmail.com</a></p>
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/fhn_yaw07" target="_blank">@fhn_yaw07</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 FHN_Yaw07 | FIFA Coaching | Built for the Greatest ⚽</p>
+  </footer>
+
+</body>
+</html>
